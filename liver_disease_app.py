@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt #plotting graphs
 import numpy as np #provides operation on arrays & numerical data
 
 # load clean dataset
-data = pd.read_csv("D:/Users/User/semester 5/neural network/activity/Indian Liver Patient Dataset (ILPD)- clean.csv")
+data = pd.read_csv("https://raw.githubusercontent.com/CallineKelly/LiverDiseaseApp/18e9277e249c8fc91be4b78edaaf60bea76f139a/Indian%20Liver%20Patient%20Dataset%20(ILPD)-%20clean.csv")
 
 # display the first few rows to check the structure
 print("Dataset Preview:\n", data.head())
